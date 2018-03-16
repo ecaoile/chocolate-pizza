@@ -3,8 +3,12 @@
     <head>
         <title>Chocolate Pizza</title>
         <link rel="stylesheet" href="css/reset.css">
+<<<<<<< HEAD
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script|IBM+Plex+Mono|Lato" rel="stylesheet">
+=======
+        <link rel="stylesheet" href="css/style-bot.css">
+>>>>>>> dc9d3b587314bb0edbd7f4ddfbaaa87f06788f03
     </head>
     <body>
       <header class="border-bottom">
@@ -32,6 +36,7 @@
         </nav>
       </header>
       <main>
+<<<<<<< HEAD
         <div class="title-section">
           <div id="title-and-date">
             <h1>Chocolate Pizza</h1>
@@ -39,6 +44,13 @@
           </div>
           <img src="" alt="print">
           <p>PRINT</p>
+=======
+        <div>
+          <h1>Chocolate Pizza</h1>
+          <p>POSTED ON 15 DEC 2013 / DESSERTS</p>
+          <img src="images/choco-pizza.png" alt="print">
+          <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add borwn sugar and stir to dissolve. Halve all of the figs </p>
+>>>>>>> dc9d3b587314bb0edbd7f4ddfbaaa87f06788f03
         </div>
         <div>
           <img src="" alt="choco pizza"/>
@@ -46,9 +58,9 @@
           <p>second paragraph</p>
           <p>third paragraph</p>
         </div>
-        <div id="recipe-list">
-          <ul>
-            <div id="first-half-list">
+        <div id="recipe-list" class="deck">
+          <ul class="recipe">
+            <div id="first-half-list" class="card">
               <li>1 1/2 cups milk</li>
               <li>1/2 cup marscopone</li>
               <li>1/2 tsp pink salt</li>
@@ -56,7 +68,7 @@
               <li>1/2 cup brown sugar</li>
               <li>2 - 4 tsp water</li>
             </div>
-            <div id="second-half-list">
+            <div id="second-half-list" class="card">
               <li>1 1/2 cups heavy cream</li>
               <li>1/3 granulated sugar</li>
               <li>2 egg yolks</li>
@@ -67,20 +79,19 @@
           </ul>
         </div>
         <div id="author-info">
-          <figure>
-            <img src="" alt="Vanessa Stevenson"/>
-            <h2>Vanessa Stevenson</h2>
-            <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-          </figure>
-          <button>SHARE RECIPE</button>
+            <img src="images/van-pic.png" alt="Vanessa Stevenson" class="bio"/>
+            <h3 class="bio">Vanessa Stevenson</h3>
+            <p class="bio">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+          <button class="right">SHARE RECIPE</button>
         </div>
+      </main>
       <footer>
         <div>
-          <hr><img src="" alt="food-logo"/><hr>
+          <hr id="foot-border">
         </div>
         <div>
-          <p>Delicious 2013 - All Rights Reserved.</p>
-          <p>Proudly published with Ghost.</p>
+          <p class="copyright">Delicious © 2013 ● All Rights Reserved.</p>
+          <p class="copyright">Proudly published with Ghost.</p>
         </div>
       </footer>
     </body>
