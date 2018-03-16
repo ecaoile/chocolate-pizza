@@ -22,7 +22,13 @@ div.media-left {
   float: left;
 }
 
-
+div#print {
+  float:right;
+  margin-right:12em;
+}
+p.main-text {
+  margin: 1em;
+}
 
 div.header-text {
   position: relative;
@@ -60,13 +66,82 @@ div#header-border {
   padding-top:3em;
 }
 
-
-/*
-#header-title {
-  display:inline;
-}*/
-/*
-nav p {
-  display: inline-block;
+hr #foot-border {
+  overflow: visible;
+  padding: 0em;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
 }
-*/
+
+hr #foot-border ::after{
+  content: "h";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+button {
+  margin: 1em;
+  background-color: #ff5555;
+  padding: 1em;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+}
+
+.bio {
+  display: inline;
+}
+
+.copyright {
+  text-align: center
+}
+
+.right {
+  float: right;
+}
+
+.recipe {
+  list-style-type: square;
+}
+
+.deck {
+    margin:1em;
+}
+
+#first-half-list {
+  display:table-cell;
+  padding:0;
+  position:relative;
+  padding: 3em;
+}
+
+#author-info {
+  display: block;
+  margin: auto;
+}
+
+#recipe-list {
+  background-image: url("../images/list-bg.png");
+  background-size: cover;
+  margin: 2em;
+  padding: 2em;
+  display: block;
+  margin: auto;
+}
+
+#second-half-list {
+  display:table-cell;
+  padding-left: 25em;
+  position:relative;
+}
+
+div#main-choco {
+  padding:2em;
+  margin-top:2em;
+  text-align: center;
+}
