@@ -1,0 +1,72 @@
+
+nav ul#social-media-icons {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+
+nav ul#social-media-icons li {
+  display: inline;
+}
+
+nav {
+  overflow: hidden;
+  margin: auto;
+  width: 960px;
+  padding-top:1.5em;
+  padding-bottom:3em; 
+}
+
+div.media-left {
+  float: left;
+}
+
+
+
+div.header-text {
+  position: relative;
+}
+
+div#header-left {
+  margin-left:3em;
+  margin-top:-3em;
+}
+
+.header-text h2 {
+  font-size:36px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.header-text p {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size:10px;
+}
+
+div#header-right {
+  margin-top:1em;
+}
+
+.title-section h1 {
+  font-family: 'Lato', sans-serif;
+  font-style: bold;
+  font-size: 32px;
+}
+
+.title-section #title-and-date {
+  margin-left:9em;
+}
+div#header-border {
+  padding-top:3em;
+}
+
+
+/*
+#header-title {
+  display:inline;
+}*/
+/*
+nav p {
+  display: inline-block;
+}
+*/
