@@ -75,11 +75,11 @@ button {
   margin: 1em;
   display: block;
   margin: auto;
-  border: 1px solid #000000;
+  border: 1px solid #000000
 }
 
 #second-half-list {
   display:table-cell;
-  padding:0;
+  padding-left: 25em;
   position:relative;
 }
