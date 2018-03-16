@@ -3,12 +3,20 @@
     <head>
         <title>Chocolate Pizza</title>
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style-bot.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|IBM+Plex+Mono|Lato" rel="stylesheet">
     </head>
     <body>
       <header class="border-bottom">
         <nav>
-          <img src="" alt="Delicious"/>
+          <div class="media-left">
+              <img src="images/logo.png" alt="Delicious"/>
+              <div class="header-text" id="header-left">
+              <h2>Delicious</h2>
+              <p>THE BEST FOOD BLOG ON THE WEB</p>
+              </div>
+          </div>          
+          <div id="header-right">
           <ul id="social-media-icons">
             <li><img src="images/fb-icon.png" alt="Facebook"></li>
             <li><img src="images/twit-icon.png" alt="Twitter"></li>
@@ -17,25 +25,30 @@
             <li><img src="images/flic-icon.png" alt="Flickr"></li>
             <li><img src="images/pint-icon.png" alt="Pinterest"></li>
             <li><img src="images/rss-icon.png" alt="RSS"></li>
-            <li><img src="images/mail-icon.png" alt="email"></li>
-          </ul> 
+            <li><img src="images/mail-icon.png" alt="email"></li> 
+          </ul>             
+          </div>
+          <div id="header-border"><hr></div>
         </nav>
       </header>
       <main>
-        <div>
-          <h1>Chocolate Pizza</h1>
-          <p>POSTED ON 15 DEC 2013 / DESSERTS</p>
-          <img src="images/choco-pizza.png" alt="print">
-          <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add borwn sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium eat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
-          <p>Ice Cream: In a small pot over medium heat, combine milk and granulate sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until fig mixture is cooled.</p>
-          <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
+        <div class="title-section">
+          <div id="title-and-date">
+            <h1>Chocolate Pizza</h1>
+            <p>POSTED ON 15 DEC 2013 / DESSERTS</p>
+          </div>
+          <div id="print">
+            <img src="images/print-icon.png"/>
+            <p>PRINT</p>
+          </div>
+          
         </div>
-        <div>
-          <img src="" alt="choco pizza"/>
-          <p>first paragraph</p>
-          <p>second paragraph</p>
-          <p>third paragraph</p>
-        </div>
+          <div id="main-choco"> 
+            <img src="images/choco-pizza.png" alt="print">
+          </div>
+          <p class="main-text">For the fig-swirl: Melt butter over medium heat in a saucepan. Add borwn sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium eat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
+          <p class="main-text">Ice Cream: In a small pot over medium heat, combine milk and granulate sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until fig mixture is cooled.</p>
+          <p class="main-text">Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
         <div id="recipe-list" class="deck">
           <ul class="recipe">
             <div id="first-half-list" class="card">
