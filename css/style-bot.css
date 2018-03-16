@@ -9,7 +9,7 @@ hr #foot-border {
 }
 
 hr #foot-border ::after{
-  content: url("images/logo.png");
+  content: url("../images/logo.png");
   display: inline-block;
   position: relative;
   top: -0.7em;
@@ -28,6 +28,39 @@ nav ul#social-media-icons li {
   display: inline;
 }
 
+button {
+  margin: 3em;
+}
+
+.bio {
+  display: inline;
+}
+
 .copyright {
   text-align: center
+}
+
+.right {
+  float: right;
+}
+
+#author-info {
+  display: block;
+  margin: auto;
+}
+
+#first-half-list{
+  float: left;
+}
+
+#recipe-list {
+  background-image: url("../images/list-bg.png");
+  margin: 1em;
+  display: block;
+  margin: auto;
+  border: 1px solid #000000;
+}
+
+#second-half-list {
+  float: right;
 }
